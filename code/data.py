@@ -1,12 +1,12 @@
 import pandas as pd
 import random
 
-cogDf = pd.read_csv("C:/Users/gaura/Documents/Submission/database/CogData_350.csv")
+cogDf = pd.read_csv("C:/Users/gaura/Documents/Submission/database/CogData_350.csv") #Change the path accordingly
 cogList = list(cogDf['Text'])
-NPDf = pd.read_csv("C:/Users/gaura/Documents/Submission/database/NPData.csv")
+NPDf = pd.read_csv("C:/Users/gaura/Documents/Submission/database/NPData.csv") #Change the path accordingly
 NPList = list(NPDf['Text'])
 
-NPListRand = random.sample(NPList, 500)
+NPListRand = random.sample(NPList, 500) #Change the number accordingly
 
 df = pd.DataFrame(list(zip(NPListRand, ['No' for _ in range(len(NPListRand))])), columns =['Text', 'CogData'])
 df2 = pd.DataFrame(list(zip(cogList, ['Yes' for _ in range(len(cogList))])), columns =['Text', 'CogData'])
