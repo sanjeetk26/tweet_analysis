@@ -12,5 +12,5 @@ The experimentations with RobertaForSequenceClassification can be found in Twitt
 
 1. CogData_350.csv: Old Cog Data containing 350 Cog data points.
 2. CogData_840.csv: New Cog Data containing 840 Cog data points.
-3. Data_New.csv: Contains New Cog Data with 180,000 NP data points. Used for Data Augmentation.
+3. Data_New.csv: Contains Old Cog Data with 180,000 NP data points. Used for Data Augmentation.
 4. NPData.csv: NP Data containing 180,000 NP data points.
