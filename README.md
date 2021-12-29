@@ -6,7 +6,7 @@ For generating data consisting of cogData and random NP data points. Make change
 python code/data.py 
 ```
 
-The experimentations with RobertaForSequenceClassification can be found in Twitter_Classification.ipynb. The notebook contains code for training and data augmentation. Run the code cells as mentioned in the notebook.
+The experimentations with RobertaForSequenceClassification can be found in code/Twitter_Classification.ipynb. The notebook contains code for training and data augmentation. Run the code cells as mentioned in the notebook.
 
 'database' folder consists of the data used for training. It consists of 4 CSV files:
 
